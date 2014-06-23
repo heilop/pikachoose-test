@@ -1,4 +1,4 @@
 pikachoose-test
 ===============
 
-Basic demo using &lt;a href ="http://www.pikachoose.com">pikachoose&lt;/a> plugin.
+Basic demo using www.pikachoose.com plugin.
