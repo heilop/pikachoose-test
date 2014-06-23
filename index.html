@@ -1,0 +1,31 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html>
+  <head>
+    <link type="text/css" href="css/styles.css" rel="stylesheet" />
+    <script type="text/javascript" src=" https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.js"></script>
+        <script type="text/javascript" src="js/lib/jquery.jcarousel.min.js"></script>
+    <script type="text/javascript" src="js/lib/jquery.pikachoose.js"></script>
+    <script language="javascript">
+      $(document).ready(
+        function (){
+          $("#gallery").PikaChoose({carousel:true});
+        });
+    </script>
+
+</head>
+<body>
+<!-- not really needed, i'm using it to center the gallery. -->
+<div class="pikachoose">
+   <h1>Basic example using pikachoose plugin - With Carousel</h1>
+  <ul id="gallery" class="jcarousel-skin-pika">
+    <li><a href="http://www.heilop.com"><img src="images/1.jpg"/></a><span>Lorem ipsum dolor sit amet, consectetur adipiscing eli</span></li>
+    <li><a href="http://www.heilop.com"><img src="images/2.jpg"/></a><span>Lorem ipsum dolor sit amet, consectetur adipiscing eli!</span></li>
+    <li><a href="http://www.heilop.com"><img src="images/3.jpg"/></a><span>Lorem ipsum dolor sit amet, consectetur adipiscing eli<a href="http://www.heilop.com"> heilop.com</a> for tutos.</span></li>
+    <li><a href="http://www.heilop.com"><img src="images/4.jpg"/></a><span>Lorem ipsum dolor sit amet, consectetur adipiscing eli</span></li>
+    <li><a href="http://www.heilop.com"><img src="images/5.jpg"/></a><span>Lorem ipsum dolor sit amet, consectetur adipiscing eli</span></li>
+  </ul>
+</div>
+
+</body>
+</html>
